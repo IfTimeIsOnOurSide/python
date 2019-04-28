@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 
 
-# @Site    : 变量类型
-# @File    : Variable.py
+# @Site    : 变量的命名和类型判断
+# @File    : VarType.py
 # @Author  : daimin
 # @Time    : 2019/4/24 22:40
 # @Desc     :
@@ -40,3 +40,8 @@ f.close()
 # 所有关键字
 print('\n')
 print(keyword.kwlist)
+
+#  None
+a = None
+print(type(a))
+print(a)
